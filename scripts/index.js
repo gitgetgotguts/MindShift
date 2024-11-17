@@ -1,9 +1,43 @@
+function get_data(){
+const form = document.forms['mform']
 
-function login(){
-    console.log("Welcome Back!")
+
+return form['username'] , form['password']
 
 }
-for(i=1;i<15;i++){
-    login()
+
+function check_pw(data){
+    user,password= get_data()
+    if (user in data){
+        if(data[user]["password"]==password){
+            alert('Welcome' + username)
+            return 
+        }
+        else{
+            alert('Try again')
+            return
+    
+        }
+    }
+    else{
+        alert('Try again')
+        return
+    }
+
+
 }
-login()
+
+
+
+
+
+
+
+
+import fs from 'fs';
+const data = JSON.parse(fs.readFileSync('scripts/pw.json', 'utf8')); //the path is the path relative to the HTML FILE NOT THE JS FILE
+
+// import data from './pw.json' assert { type: 'json' }
+
+
+getElementById('submit').onclick=check_pw(data)

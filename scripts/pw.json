@@ -1,0 +1,74 @@
+{
+    "john_doe": {
+      "password": "password123",
+      "role": "user",
+      "last_login": "2024-11-10T08:23:45Z"
+    },
+    "jane_smith": {
+      "password": "securePass456",
+      "role": "admin",
+      "last_login": "2024-11-15T14:11:30Z"
+    },
+    "admin_user": {
+      "password": "admin2024!",
+      "role": "superadmin",
+      "last_login": "2024-11-16T07:58:10Z"
+    },
+    "test_user": {
+      "password": "testpass789",
+      "role": "user",
+      "last_login": "2024-11-12T16:02:55Z"
+    },
+    "guest_account": {
+      "password": "guest12345",
+      "role": "guest",
+      "last_login": "2024-11-14T09:23:01Z"
+    },
+    "alice_williams": {
+      "password": "alicePassword321",
+      "role": "user",
+      "last_login": "2024-11-10T19:33:40Z"
+    },
+    "bob_jones": {
+      "password": "bobJones987",
+      "role": "user",
+      "last_login": "2024-11-13T11:14:20Z"
+    },
+    "charlie_brown": {
+      "password": "charlie123!",
+      "role": "admin",
+      "last_login": "2024-11-15T20:45:15Z"
+    },
+    "emma_clark": {
+      "password": "emmaSecure!987",
+      "role": "user",
+      "last_login": "2024-11-13T18:05:50Z"
+    },
+    "david_miller": {
+      "password": "davidSecure12",
+      "role": "user",
+      "last_login": "2024-11-14T10:23:25Z"
+    },
+    "lucy_evans": {
+      "password": "lucyPass!234",
+      "role": "guest",
+      "last_login": "2024-11-12T07:30:05Z"
+    },
+    "henry_wilson": {
+      "password": "henryWilson@234",
+      "role": "superadmin",
+      "last_login": "2024-11-15T22:50:00Z"
+    },
+    "mike_johnson": {
+      "password": "mikeJohnson34!",
+      "role": "admin",
+      "last_login": "2024-11-10T13:55:45Z"
+    },
+    "olivia_martinez": {
+      "password": "oliviaMart!789",
+      "role": "user",
+      "last_login": "2024-11-14T17:02:33Z"
+    },
+     "type" : "module"
+  }
+  
