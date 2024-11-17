@@ -3,7 +3,6 @@ const form = document.forms['mform']
 
 
 return form['username'] , form['password']
-
 }
 
 function check_pw(data){
@@ -16,24 +15,13 @@ function check_pw(data){
         else{
             alert('Try again')
             return
-    
         }
     }
     else{
         alert('Try again')
         return
     }
-
-
 }
-
-
-
-
-
-
-
-
 import fs from 'fs';
 const data = JSON.parse(fs.readFileSync('scripts/pw.json', 'utf8')); //the path is the path relative to the HTML FILE NOT THE JS FILE
 
